@@ -12,7 +12,6 @@ Product.belongsToMany(Tag, {
     model: ProductTag,
     unique: false
   },
-  //as: '?'
 })
 
 Tag.belongsToMany(Product, {
@@ -20,7 +19,6 @@ Tag.belongsToMany(Product, {
     model: ProductTag,
     unique: false
   },
-  //as: '?'
 })
 
 module.exports = {
